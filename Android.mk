@@ -1,3 +1,4 @@
+LOCAL_CLANG_EXCEPTION_PROJECTS += external/unrar
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
