@@ -18,6 +18,9 @@
   #include <new>
 #endif
 
+#ifdef __BIONIC__
+#include <endian.h>
+#endif
 
 #if defined(_WIN_ALL) || defined(_EMX)
 
