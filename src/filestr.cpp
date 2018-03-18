@@ -40,7 +40,7 @@ bool ReadTextFile(
 #ifndef __BIONIC__
   if (FileName!=NULL && *FileName!=0 || FileNameW!=NULL && *FileNameW!=0)
 #else
-  if (FileName!=NULL && *FileName!=0)
+  if (*FileName!=0)
 #endif
   {
 #ifndef __BIONIC__
